@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplexerek</title>
+    <style>
+        .cim{
+            text-align: center;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white; /* Set the color to white */
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+        margin-top: 50px; /* Adjust this value based on the navbar height */
+        padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#section1">Multiplexerek</a>
+        <a href="#section2">151-es Multiplexer</a>
+        <a href="#section3">Ajánlott használati körülmények</a>
+    </nav>
+<body>
+    <section id="section1">
+    <h2 class="">Multiplexerekről</h2>
+    <p>A multiplexer (vagy mux vagy ritkán muldex) egy sorrendi hálózatokból felépített speciális logikai eszköz, amely két vagy több bemenő jel közül a címező (vezérlő) jel alapján egyet a kimenetére ad.[1] Egy adott pillanatban igaz ez az állítás, de hosszabb időt tekintve képes a jelek egyesítésére (időeltolással). Az analóg és digitális jelek multiplexálására külön analóg és digitális multiplexer áramkörök szolgálnak.<p>
+    
+    <img style="width: 800px; height: 600px;" src="galeria/R.jpg" alt="">
+
+    <img style="float:right; width: 800px; height: 600;" src="galeria/Telephony_multiplexer_system.gif" alt="">
+    <br></section>
+
+    <section id="section2">
+
+    <h2>151-es Multiplexer</h2>
+
+    <h3>Általános információ</h3>
+
+    <p>The 74HC151; 74HCT151 is an 8-bit multiplexer with eight binary inputs (I0 to I7), three select
+        inputs (S0 to S2) and an enable input (E). One of the eight binary inputs is selected by the select
+        inputs and routed to the complementary outputs (Y and Y). A HIGH on E forces the output Y
+        LOW and output Y HIGH. Inputs also include clamp diodes that enable the use of current limiting
+        resistors to interface inputs to voltages in excess of VCC.</p>
+    <h3>Előnyei</h3>
+    
+    <p>Wide supply voltage range from 2.0 V to 6.0 V
+        • CMOS low power dissipation
+        • High noise immunity
+        • Latch-up performance exceeds 100 mA per JESD 78 Class II Level B
+        • Input levels:
+        • For 74HC151: CMOS level
+        • For 74HCT151: TTL level
+        • Non-inverting data path
+        • Complies with JEDEC standards
+        • JESD8C (2.7 V to 3.6 V)
+        • JESD7A (2.0 V to 6.0 V)
+        • ESD protection:
+        • • HBM JESD22-A114F exceeds 2 kV
+        • MM JESD22-A115-A exceeds 200 V
+        • Specified from -40 °C to +85 °C and from -40 °C to +125 °C</p>
+
+    <h3>Működése</h3>
+        <img src="galeria/" alt="">
+        <p>Introduction:
+            The Multiplexer 151, part of the 74 series, serves as a digital electronic component designed to combine multiple input signals into a single output signal. It acts as a data selector, allowing the user to choose one input from several sources to transmit to the output.
+            <br>
+            Basic Functionality:
+            At its core, the Multiplexer 151 operates on the principle of selecting one input signal from several and directing it to the output. It has 2�2 n input lines, where � n is the number of control lines. The control lines determine which input is chosen.
+            <br>
+            Internal Structure:
+            The internal structure of the Multiplexer 151 consists of input lines, a control input, and a single output. The number of input lines depends on the specific variant of the 74 series, and it is typically a power of 2 (e.g., 4, 8, or 16). The control lines, often represented as �n, determine which input line is connected to the output.
+            <br>
+            Operation:
+            1.Input Selection:
+
+            The Multiplexer 151 receives multiple input signals, each connected to one of its input lines.
+            The number of input lines is 2�2 n, allowing for the selection of 2�2 n different input sources.
+
+            2.Control Lines:
+            The control lines (�n) determine which input line will be connected to the output.
+            The binary value on the control lines selects one of the 2�2 n input lines.
+
+            3.Output Generation:
+            The selected input signal is then directed to the output.The output carries the information from the chosen input line.
+
+            Example:For a 4-to-1 Multiplexer 151 (with �=2n=2):It has four input lines (0, 1, 2, 3).The control lines (�n) take binary values (00, 01, 10, 11).Depending on the binary value on the control lines, the corresponding input line is connected to the output.
+
+            Applications:
+            The Multiplexer 151 finds applications in various digital systems, including data routing, signal switching, and control applications. Its ability to efficiently select and route signals makes it a crucial component in electronic circuits.
+
+            Conclusion:
+            In summary, the Multiplexer 151 simplifies digital circuit design by allowing the efficient selection and transmission of one input signal from a set of multiple sources. Its operation is based on control lines that determine the chosen input, making it a versatile and fundamental component in digital electronics.
+        </p>
+    </section>
+    <section id="section3">
+        <h3>Ajánlott használati körülmények</h3>
+        <img src="galeria/Képernyőkép 2024-02-04 003011.png" alt="">
+    </section>
+</body>
+</html>
